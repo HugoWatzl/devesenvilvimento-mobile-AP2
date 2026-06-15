@@ -440,3 +440,14 @@ python -m uvicorn main:app --host 0.0.0.0 --reload
 | Organização do código            | Pacotes separados para API, model, adapter, Activities e backend                                  |
 
 ---
+
+## Banco de Dados Utilizado
+
+O banco de dados utilizado no projeto foi o **SQLite**, um banco relacional baseado em arquivo.
+
+A escolha do SQLite foi feita por ser uma opção simples e leve para projetos acadêmicos, não exigindo instalação de servidor externo como MySQL ou PostgreSQL.
+
+No projeto, o banco é representado pelo arquivo:
+
+```text
+cade.db
